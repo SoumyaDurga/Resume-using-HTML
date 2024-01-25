@@ -1,0 +1,64 @@
+body {
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4 {
+    text-decoration: underline;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.p1 {
+    font-weight: bold;
+}
+
+h4:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 10px auto;
+    /* Removed blue color for the line */
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul, ol {
+    margin-bottom: 15px;
+}
+
+h4 + b {
+    margin-top: 20px;
+}
+
+body {
+    margin-bottom: 20px;
+}
